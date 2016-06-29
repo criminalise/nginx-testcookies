@@ -23,6 +23,12 @@ git clone https://github.com/openresty/echo-nginx-module.git
 git clone https://github.com/arut/nginx-dav-ext-module.git
 git clone https://github.com/masterzen/nginx-upload-progress-module.git
 
+#Pagespeed Library
+cd /opt/nginx/modules/ngx_pagespeed
+wget https://dl.google.com/dl/page-speed/psol/1.11.33.2.tar.gz
+tar -xzvf 1.11.33.2.tar.gz
+rm -Rf 1.11.33.2.tar.gz
+
 #Nginx 1.9.7
 mkdir -p /opt/nginx/sources/
 cd /opt/nginx/sources/
