@@ -78,14 +78,11 @@ cat <<EOF > /opt/nginx/sources/nginx-1.9.7/bu.sh
 --add-module=/opt/nginx/modules/nginx-upload-progress-module
 
 make
-
 make install
 EOF
 
 #Starting.
 cd /opt/nginx/sources/nginx-1.9.7/
 sudo sh bu.sh
-make
-make install
 
 
