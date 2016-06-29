@@ -1,5 +1,5 @@
 # Autocompiler For Nginx And TestCookies Module.
-This is an auto compiler script and some other modules. 
+This is an auto compiler script for nginx 1.9.7 and some other modules. 
 
 1. Copy Repo 
   
