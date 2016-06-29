@@ -6,7 +6,8 @@ apt-get install build-essential -y
 apt-get install checkinstall libpcre3 libpcre3-dev zlib1g zlib1g-dbg libxml2 zlib1g-dev -y
 apt-get install openssl libssl-dev libperl-dev -y
 apt-get install libxslt-dev -y
-apt-get install libgd2-xpm libgd2-xpm-dev -y
+apt-get install libgd2-xpm -y
+apt-get install libgd2-xpm-dev -y
 apt-get install libgeoip-dev -y
 
 #Modules.
@@ -75,10 +76,16 @@ cat <<EOF > /opt/nginx/sources/nginx-1.9.7/bu.sh
 --add-module=/opt/nginx/modules/ngx_pagespeed \
 --add-module=/opt/nginx/modules/ngx_cache_purge \
 --add-module=/opt/nginx/modules/nginx-upload-progress-module
+
+make
+
+make install
 EOF
 
 #Starting.
 cd /opt/nginx/sources/nginx-1.9.7/
 sudo sh bu.sh
+make
+make install
 
 
