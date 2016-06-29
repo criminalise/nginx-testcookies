@@ -32,6 +32,7 @@ rm -Rf nginx-1.9.7.tar.gz
 
 #Compile Nginx With Modules.
 cd /opt/nginx/sources/
+cat <<EOF > /opt/nginx/sources/nginx-1.9.7/bu.sh
 ./configure \
 --user=nginx \
 --group=nginx \
@@ -63,4 +64,9 @@ cd /opt/nginx/sources/
 --add-module=/opt/nginx/modules/ngx_pagespeed \
 --add-module=/opt/nginx/modules/ngx_cache_purge \
 --add-module=/opt/nginx/modules/nginx-upload-progress-module
+EOF
+
+#Starting.
+sudo sh bu.sh
+
 
