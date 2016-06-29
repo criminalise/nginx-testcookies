@@ -1,4 +1,10 @@
 #!/bin/bash
+# Nginx 1.9.7 + 9 Modules.
+# Author RAW.
+##########################
+
+
+#Before.
 apt-get update -y
 apt-get upgrade -y
 apt-get dist-upgrade -y
@@ -85,4 +91,14 @@ EOF
 cd /opt/nginx/sources/nginx-1.9.7/
 sudo sh bu.sh
 
-
+echo "-------------------------------------"
+echo "~///////////////////////////////////~"
+#ask to fix it.
+read -p "If you want we can fix nginx Are you OK with this? <y/N> " prompt
+if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
+then
+   ./fixit.sh
+else
+  echo "Ok."
+  exit 0
+fi
