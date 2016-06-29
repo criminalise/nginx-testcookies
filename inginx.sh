@@ -31,7 +31,7 @@ tar -xzvf nginx-1.9.7.tar.gz
 rm -Rf nginx-1.9.7.tar.gz
 
 #Compile Nginx With Modules.
-cd /opt/nginx/sources/
+cd /opt/nginx/sources/nginx-1.9.7/
 cat <<EOF > /opt/nginx/sources/nginx-1.9.7/bu.sh
 ./configure \
 --user=nginx \
@@ -67,6 +67,7 @@ cat <<EOF > /opt/nginx/sources/nginx-1.9.7/bu.sh
 EOF
 
 #Starting.
+cd /opt/nginx/sources/nginx-1.9.7/
 sudo sh bu.sh
 
 
