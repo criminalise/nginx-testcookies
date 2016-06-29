@@ -2,7 +2,12 @@
 apt-get update -y
 apt-get upgrade -y
 apt-get dist-upgrade -y
-apt-get install libssl-dev checkinstall libpcre3 libpcre3-dev zlib1g zlib1g-dbg zlib1g-dev -y
+apt-get install build-essential -y
+apt-get install checkinstall libpcre3 libpcre3-dev zlib1g zlib1g-dbg libxml2 zlib1g-dev -y
+apt-get install openssl libssl-dev libperl-dev -y
+apt-get install libxslt-dev -y
+apt-get install libgd2-xpm libgd2-xpm-dev -y
+apt-get install libgeoip-dev -y
 
 #Modules.
 mkdir -p /opt/nginx/modules/
