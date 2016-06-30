@@ -5,6 +5,7 @@
 
 
 #Before.
+chmod +x fixit.sh
 apt-get update -y
 apt-get upgrade -y
 apt-get dist-upgrade -y
