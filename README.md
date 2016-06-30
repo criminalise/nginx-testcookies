@@ -18,6 +18,7 @@ This is an auto compiler script for nginx 1.9.7 and some other modules.
 U'r Done :)
 
   Modules List.
+  <pre>
    1. `ngx_devel_kit-0.2.19         > https://github.com/ildus/nginx_redis`
    2. `set-misc-nginx-module        > https://github.com/openresty/set-misc-nginx-module`
    3. `ngx_pagespeed                > https://github.com/pagespeed/ngx_pagespeed.git`
@@ -27,3 +28,4 @@ U'r Done :)
    7. `echo-nginx-module            > https://github.com/openresty/echo-nginx-module`
    8. `nginx-dav-ext-module         > https://github.com/arut/nginx-dav-ext-module`
    9. `nginx-upload-progress-module > https://github.com/masterzen/nginx-upload-progress-module`
+  </pre>
