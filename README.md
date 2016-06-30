@@ -29,3 +29,5 @@ U'r Done :)
    8. `nginx-dav-ext-module         > https://github.com/arut/nginx-dav-ext-module`
    9. `nginx-upload-progress-module > https://github.com/masterzen/nginx-upload-progress-module`
   </pre>
+
+  You can read their docs if you don't know how to use them.
