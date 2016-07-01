@@ -1,6 +1,8 @@
 # Autocompiler For Nginx And TestCookies Module.
 This is an auto compiler script for nginx 1.9.7 and some other modules. 
 
+**Info:** This script is tested on Ubuntu 14.04 LTS. 
+
 1. Copy Repo 
   
    $ **`cd ~/`**
