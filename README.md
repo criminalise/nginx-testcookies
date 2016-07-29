@@ -33,3 +33,24 @@ U'r Done :)
   </pre>
 
   You can read their docs if you don't know how to use them.
+
+
+#Manual Mode. (To Check If Is An Error.)
+
+  $ **`cd ~/`**
+
+  $ **`wget https://raw.githubusercontent.com/hitechlinux/nginx-testcookies/master/mmode.sh`**
+  
+  $ **`chmod +x mmode.sh`**
+  
+  $ **`./mmode.sh`**
+  
+  $ **`cd /opt/nginx/sources/nginx-1.9.7/`**
+  
+  $ **`wget https://raw.githubusercontent.com/hitechlinux/nginx-testcookies/master/build.sh`**
+  
+  $ **`sh build.sh`**
+  
+  $ **`sudo make`**
+  
+  $ **`sudo make install`**
