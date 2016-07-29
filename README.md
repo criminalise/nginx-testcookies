@@ -54,3 +54,7 @@ U'r Done :)
   $ **`sudo make`**
   
   $ **`sudo make install`**
+
+  $ **`wget https://raw.githubusercontent.com/hitechlinux/nginx-testcookies/master/fixit.sh`**
+  
+  $ **`sh fixit.sh`**
