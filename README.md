@@ -35,7 +35,7 @@ U'r Done :)
   You can read their docs if you don't know how to use them.
 
 
-#Manual Mode. (To Check If Is An Error.)
+#Manual Mode. (To Check If Is AnY Error.)
 
   $ **`cd ~/`**
 
